@@ -1,0 +1,100 @@
+body {
+    background-color: white;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+
+    background-color: rgb(50, 120, 120);
+}
+
+.presentation > .mdl-typography--display-3 {
+    color: white;
+}
+
+.presentation > img {
+    border-radius: 50%;
+    height: 35%;
+
+    margin-bottom: 10px;
+}
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+
+    color: rgb(150, 220, 220);
+}
+
+.presentation > .fa:hover {
+    color: rgb(200, 200, 200);
+}
+
+.projets {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 5vh;
+
+    background-color: white;
+}
+
+.projets > h1 {
+    font-family: "DejaVu Sans Light", serif;
+    font-size: 40px;
+}
+
+.projets > .discord-card > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../image/triolet.jpg') center / cover;
+}
+.projets > .discord-card > .mdl-card__menu {
+    color: #fff;
+}
+
+.competences {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 5vh;
+
+    background-color: white;
+}
+
+.competences > .cercles {
+    flex-direction: row;
+}
+
+.competences > h1 {
+    font-family: "DejaVu Sans Light", serif;
+    font-size: 40px;
+}
+
+.quizz {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+
+    color: white;
+
+    background-color: whitesmoke;
+}

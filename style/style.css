@@ -1,0 +1,145 @@
+.main {
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main > .info {
+    color: #4db53c;
+
+    padding-left: 25px;
+    padding-top: 0;
+    opacity: 0;
+}
+
+.main > .info > .material-icons {
+    transform: translate(-26px, 28px);
+}
+
+.stats {
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+}
+
+.stats > .stat-container {
+    width: 15vw;
+    background-color: #DED7E6;
+    margin: 15px;
+
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.stats > .stat-container > h1 {
+    color: black;
+    font-family: "DejaVu Sans Light", serif;
+    text-align: center;
+}
+
+.stats > .stat-container > p {
+    color: black;
+    opacity: 50%;
+    font-family: "DejaVu Sans", serif;
+    text-align: center;
+}
+
+h1 {
+    transition: color 1s cubic-bezier(1, 1, 1, 1);
+    transition-delay: 0s;
+
+    font-family: "DejaVu Sans Light", serif;
+}
+
+body > .main > .url {
+    padding-left: 2vw;
+}
+
+.url-bar {
+    width: 20vw;
+}
+
+.cv {
+    background-color: #D98B3A;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.cv > h2 {
+    font-family: "DejaVu Sans Light", serif;
+    letter-spacing: -3px;
+
+    flex-direction: column;
+    color: white;
+    opacity: 70%;
+
+    transform: translateY(-7.5vh);
+    height: 15px;
+}
+
+.cv > p {
+    opacity: 70%;
+
+    transform: translateY(-7.5vh);
+}
+
+.authors {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.authors > .author {
+    flex-direction: row;
+
+    text-align: center;
+    text-decoration: none;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, .2);
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin: 15px;
+}
+
+.authors > .author > img {
+    border-radius: 50%;
+    height: 35vh;
+
+    margin-bottom: 10px;
+}
+
+.authors > .author > h2 {
+    font-family: "DejaVu Sans Light", serif;
+    letter-spacing: -2px;
+
+    opacity: 70%;
+    color: black;
+}
+
+.authors > .author > p  {
+    font-family: "DejaVu Sans", serif;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+    transform: translateY(-20px);
+    color: black;
+}
