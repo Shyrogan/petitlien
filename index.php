@@ -55,7 +55,7 @@
             <h2>Curriculum vitæ</h2>
             <p>(cliquez sur les cartes pour y accéder)</p>
             <div class="authors">
-                <a class="author" href="sebastien.html">
+                <a class="author" href="sebastien.php">
                     <img src="image/shyrogan.png" alt="AAAAA">
                     <h2>Sébastien VIAL</h2>
                     <p>sebastien.vial@etu.umontpellier.fr</p>

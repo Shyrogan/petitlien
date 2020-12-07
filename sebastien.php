@@ -107,7 +107,7 @@
             </div>
         </div>
         <!-- Bouton qui amène vers le quizz -->
-        <a class="quizz" href="quizz.html">
+        <a class="quizz" href="quizz.php">
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                 Petit quizz <i class="material-icons">trending_up</i> ?
             </button>
