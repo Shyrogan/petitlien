@@ -49,17 +49,35 @@ body {
     background-color: white;
 }
 
+.projets > .projet-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .projets > h1 {
-    font-family: "DejaVu Sans Light", serif;
+    font-family: "DejaVu Sans Light", sans-serif;
     font-size: 40px;
 }
 
-.projets > .discord-card > .mdl-card__title {
+.projets > .projet-container > .discord-card > .mdl-card__title {
     color: #fff;
     height: 176px;
     background: url('../image/triolet.jpg') center / cover;
 }
-.projets > .discord-card > .mdl-card__menu {
+.projets > .projet-container > .discord-card > .mdl-card__menu {
+    color: #fff;
+}
+
+.projets > .projet-container > .petitlien-card > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../image/petitlien.png') center / cover;
+}
+.projets > .projet-container > .petitlien-card > .mdl-card__title {
+    color: black;
+}
+.projets > .projet-container > .petitlien-card > .mdl-card__menu {
     color: #fff;
 }
 
@@ -80,7 +98,7 @@ body {
 }
 
 .competences > h1 {
-    font-family: "DejaVu Sans Light", serif;
+    font-family: "DejaVu Sans Light", sans-serif;
     font-size: 40px;
 }
 

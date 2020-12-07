@@ -42,14 +42,14 @@
 
 .stats > .stat-container > h1 {
     color: black;
-    font-family: "DejaVu Sans Light", serif;
+    font-family: "Roboto Light", sans-serif;
     text-align: center;
 }
 
 .stats > .stat-container > p {
     color: black;
     opacity: 50%;
-    font-family: "DejaVu Sans", serif;
+    font-family: "DejaVu Sans", sans-serif;
     text-align: center;
 }
 
@@ -57,7 +57,7 @@ h1 {
     transition: color 1s cubic-bezier(1, 1, 1, 1);
     transition-delay: 0s;
 
-    font-family: "DejaVu Sans Light", serif;
+    font-family: "DejaVu Sans Light", sans-serif;
 }
 
 body > .main > .url {
@@ -81,7 +81,7 @@ body > .main > .url {
 }
 
 .cv > h2 {
-    font-family: "DejaVu Sans Light", serif;
+    font-family: "DejaVu Sans Light", sans-serif;
     letter-spacing: -3px;
 
     flex-direction: column;
@@ -129,7 +129,7 @@ body > .main > .url {
 }
 
 .authors > .author > h2 {
-    font-family: "DejaVu Sans Light", serif;
+    font-family: "DejaVu Sans Light", sans-serif;
     letter-spacing: -2px;
 
     opacity: 70%;
@@ -137,7 +137,7 @@ body > .main > .url {
 }
 
 .authors > .author > p  {
-    font-family: "DejaVu Sans", serif;
+    font-family: "DejaVu Sans", sans-serif;
     letter-spacing: -0.2px;
     opacity: 70%;
     transform: translateY(-20px);
